@@ -13,7 +13,7 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
             <hr className="clearfix w-100 d-md-none pb-0"/>
 
             <div className="col-md-3 mb-md-3 mb-3">
-                <h5 className="text-uppercase">About Sadith</h5>
+                <h5 className="text-uppercase">About Sadith life</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Overview</a></li>
                     <li><a href="#!">Values</a></li>
