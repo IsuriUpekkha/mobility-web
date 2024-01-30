@@ -7,13 +7,14 @@ import { TiSocialYoutubeCircular } from "react-icons/ti";
 
 
 const Footer = (): JSX.Element => <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
+    <div className="content">
+    <div className="container-fluid text-left text-md-left">
         <div className="row">
 
             <hr className="clearfix w-100 d-md-none pb-0"/>
 
-            <div className="col-md-3 mb-md-3 mb-3">
-                <h5 className="text-uppercase">About Sadith life</h5>
+            <div className="col-md-2 mb-md-3 mb-3">
+                <h5>About Sadith </h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Overview</a></li>
                     <li><a href="#!">Values</a></li>
@@ -24,8 +25,8 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
                 </ul>
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Products</h5>
+            <div className="col-md-2 mb-md-0 mb-3">
+                <h5>Products</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Prepaid</a></li>
                     <li><a href="#!">Postpaid</a></li>
@@ -35,8 +36,8 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
                 </ul>
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Support</h5>
+            <div className="col-md-2 mb-md-0 mb-3">
+                <h5>Support</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Service Touch Points Locator</a></li>
                     <li><a href="#!">Get Help</a></li>
@@ -45,32 +46,41 @@ const Footer = (): JSX.Element => <footer className="page-footer font-small blue
                 </ul>
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Business</h5>
+            <div className="col-md-2 mb-md-0 mb-3">
+                <h5>Business</h5>
                 <ul className="list-unstyled">
                     <li><a href="#!">Business Solutions</a></li>
                     <li><a href="#!">Become A Partner</a></li>
                 </ul>
             </div>
 
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Connect with us</h5>
-                <ul className="list-unstyled">
-                    <li><a href="#!"><FaFacebook /></a></li>
-                    <li><a href="#!"><FaXTwitter /></a></li>
-                    <li><a href="#!"><FaLinkedin /></a></li>
-                    <li><a href="#!"><FaInstagramSquare /></a></li>
-                    <li><a href="#!"><TiSocialYoutubeCircular /></a></li>
+            <div className="col-md-4 mb-md-0 mb-3">
+                <h5>Connect with us</h5>
+                <ul className="list-unstyled mb custom-social-links" >
+                    <a href="#!"><FaFacebook /></a>
+                    <a href="#!"><FaXTwitter /></a>
+                    <a href="#!"><FaLinkedin /></a>
+                    <a href="#!"><FaInstagramSquare /></a>
+                    <a href="#!"><TiSocialYoutubeCircular /></a>
                 </ul>
             </div>
         </div>
     </div>
-
-    <div className="footer-copyright text-center py-3">© 2024 NoName | All rights reserved
-        <a href="https://mdbootstrap.com/"> Privacy Policy</a>
-        <a href="https://mdbootstrap.com/"> Terms and Conditions</a>
     </div>
+
+    <div className="container-fluid footer-bottom">
+        <div className="container footer-inner col-md-12 no-padding">
+            <div className="copyright col-sm-6">© 2024 sadith | All rights reserved </div>
+        <div className="col-sm-6">
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
 
 </footer>
 
-export default Footer
+export default Footer;

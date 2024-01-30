@@ -1,1 +1,44 @@
+.page-footer{
+    background-color: #F2F2F2;
+}
 
+.content{
+  padding-left: 10%;
+}
+
+li a {
+    color: #747474; 
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  ul > a{
+    color: #C4CC2E;
+    margin-right: 15px;
+  }
+
+  img, svg {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-bottom{
+    background-color:#C4CC2E;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+
+  .col-sm-6{
+    position: relative;
+  }
+
+  .footer-bottom ul li {
+    display: inline-block;
+    margin-left: 35px;
+  }
+
+  .footer-bottom ul {
+    text-align: right;
+    list-style: none;
+}
